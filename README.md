@@ -26,7 +26,7 @@ curl http://localhost:8080
 ```
 or 
 ```bash
-wget -qO- http://localhost:8000
+wget -qO- http://localhost:8080
 ```
 You can also access the web app from your local machine using a browser by entering the IP address of your Raspberry Pi,
 like this: http://<raspberry_pi_ip>:8080.
