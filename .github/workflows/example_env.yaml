@@ -12,6 +12,10 @@ jobs:
       - run: echo 'Hi ${{ env.mascot }}'  # Hi Octocat
         env:
           mascot: Octocat
+      - run: echo 'Hi ${{ env.mascot }}'  # Hi Summer
+        env:
+          mascot: Summer
+          
   linux_job:
     runs-on: ubuntu-latest
     env:
